@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "next",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "offiedz@gmail.com",
@@ -12,6 +13,7 @@
     "nextjs": "0.0.3"
   },
   "dependencies": {
+    "next": "^7.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }
