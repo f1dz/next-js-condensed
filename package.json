@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "next",
+    "start": "node server.js",
     "build": "next build",
     "static": "next export",
     "server": "next start",
@@ -13,6 +13,7 @@
   "author": "offiedz@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "express": "^4.16.4",
     "nextjs": "0.0.3"
   },
   "dependencies": {
